@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage     = "https://github.com/pristineio/webrtc-build-scripts, https://github.com/chamara-dev/webrtc-build-scripts"
   s.platform = :ios, '7.0'
-  s.author       = { "Rahul Behera" => "rahul@pristine.io", "Chamara Dev" }
+  s.author       = { "Rahul Behera" => "rahul@pristine.io"}
   s.social_media_url = 'https://twitter.com/bot_the_builder'
   s.source       = { :git => 'https://github.com/chamara-dev/gate_libjingle_peerconnection.git', :tag => '1.0.50' }
   s.source_files =  'libjingle_peerconnection/Headers/*.h'
